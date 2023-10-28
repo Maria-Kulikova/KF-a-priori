@@ -1,5 +1,5 @@
 # Condensed Discrete-time Kalman filter implementation methods 
-This repository contains MATLAB functions for various Kalman filter (KF) implementation methods. They are given in a priori form (the predicted form), i.e., the first measurement is available at the initial step and, hence, the measurement update stage comes first. All such methods can be written in the so-called condensed form, i.e., without division on the time and measurement updates. Thus, only condensed algorithms are mention in this repository. Two-stage implementations can be easily obtained from algorithms <a href="https://github.com/Maria-Kulikova/KF-a-posteriori">here</a>.   
+This repository contains MATLAB functions for various Kalman filter (KF) implementation methods. They are given in a priori form (the predicted form), i.e., the first measurement is available at the initial step and, hence, the measurement update stage comes first. All such methods can be written in the so-called condensed form, i.e., without division on the time and measurement updates. Thus, only condensed algorithms are mentioned in this repository. Two-stage implementations can be easily obtained from algorithms <a href="https://github.com/Maria-Kulikova/KF-a-posteriori">here</a>.   
 
 # References
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
