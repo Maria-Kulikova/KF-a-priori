@@ -20,20 +20,18 @@ When the state is estimated, the resulted errors should be the same for all impl
 # List of the KF implementation methods
 ### Riccati recursion-based KF implementation methods:
 Conventional algorithms:
- -  `@Riccati_KF_standard` is the Conventional implementation by Kalman (1960)
- -  `@Riccati_KF_Joseph`   is the Conventional Joseph stabilized implementation by Bucy & Joseph (1968)
- -  `@Riccati_KF_Swerling` is the Conventional implementation based on Swerling's formula (1959)
- -  `@Riccati_KF_seq`      is the Sequential Kalman Filter (component-wise measurement update)
-
+ -  `@Riccati_KF_standard` is the Conventional implementation in one-step condensed form
 Square-root algorithms by using Cholesky factorization:
  -  `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter with lower triangular factors 
  -  `Riccati_KF_SRCF_QR`   is the Square-Root Covariance Filter with upper triangular factors
- -  `Riccati_KF_SRCF_QR_seq` is the Sequential Square-Root Covariance Filter with upper triangular factors by Kulikova (2009)
- -  `Riccati_KF_eSRCF_QL`  is the Extended Square-Root Covariance Filter with lower triangular factors by Park & Kailath (1995) 
+ -  `Riccati_KF_eSRCF_QL`  is the Extended Square-Root Covariance Filter with lower triangular factors 
  -  `Riccati_KF_eSRCF_QR`  is the Extended Square-Root Covariance Filter with upper triangular factors 
 ### Chandrasekhar recursion-based KF implementation methods:
- 
-This repository contains MATLAB functions for various Kalman filter (KF) implementation methods. They are given in a posteriori form, i.e., no data are assumed to be known at the initial step and, hence, the time update comes first. 
+-  `@Chandrasekhar_KF1` is the Conventional implementation by Morf et.al. (1974)
+-  `@Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974)
+-  `@Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974)
+-  `@Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974)
+
 
 # References
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
