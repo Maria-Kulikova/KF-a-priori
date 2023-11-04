@@ -23,11 +23,11 @@ When the state is estimated, the resulted errors should be the same for all impl
  -  `@Riccati_KF_standard` is the Conventional implementation in one-step condensed form
    
 ### Square-root algorithms:
-Cholesky factorization-based methods:
- -  `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
- -  `Riccati_KF_SRCF_QR`   is the SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
- -  `Riccati_KF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
- -  `Riccati_KF_eSRCF_QR`  is the Extended SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+ - Cholesky factorization-based methods:
+   -  `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+   -  `Riccati_KF_SRCF_QR`   is the SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+   -  `Riccati_KF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+   -  `Riccati_KF_eSRCF_QR`  is the Extended SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
    
 ## Chandrasekhar recursion-based KF implementation methods:
 ### Conventional algorithms:
