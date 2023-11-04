@@ -20,7 +20,7 @@ When the state is estimated, the resulted errors should be the same for all impl
 # List of the KF implementation methods
 ## Riccati recursion-based KF implementation methods:
 ### Conventional algorithms:
- -  `@Riccati_KF_standard` is the Conventional implementation in one-step condensed form
+ -  `Riccati_KF_standard` is the Conventional implementation in one-step condensed form
    
 ### Square-root algorithms:
  - Cholesky factorization-based methods:
@@ -31,7 +31,7 @@ When the state is estimated, the resulted errors should be the same for all impl
    
 ## Chandrasekhar recursion-based KF implementation methods:
 ### Conventional algorithms:
--  `@Chandrasekhar_KF1` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
--  `@Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
--  `@Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
--  `@Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
+-  `Chandrasekhar_KF1` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
+-  `Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
+-  `Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
+-  `Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
