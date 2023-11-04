@@ -18,18 +18,19 @@ The codes have been presented here for their instructional value only. They have
 When the state is estimated, the resulted errors should be the same for all implementation methods because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. 
 
 # List of the KF implementation methods
-### Riccati recursion-based KF implementation methods:
-Conventional algorithms:
+## Riccati recursion-based KF implementation methods:
+### Conventional algorithms:
  -  `@Riccati_KF_standard` is the Conventional implementation in one-step condensed form
    
-Square-root algorithms by using Cholesky factorization:
+### Square-root algorithms:
+Cholesky factorization-based methods:
  -  `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
  -  `Riccati_KF_SRCF_QR`   is the SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
  -  `Riccati_KF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
  -  `Riccati_KF_eSRCF_QR`  is the Extended SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
- -  
-### Chandrasekhar recursion-based KF implementation methods:
-Conventional algorithms:
+   
+## Chandrasekhar recursion-based KF implementation methods:
+### Conventional algorithms:
 -  `@Chandrasekhar_KF1` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
 -  `@Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
 -  `@Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
