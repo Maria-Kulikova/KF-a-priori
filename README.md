@@ -34,5 +34,8 @@ When the state is estimated, the resulted errors should be the same for all impl
   - `Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   - `Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
 
-| Left-aligned | Center-aligned | Right-aligned | | :--- | :---: | ---: | | git status | git status | git status | | git diff | git diff | git diff |
+| Recursion/Type | Covariance | Information | 
+| :--- | :---: | :---: | 
+| Riccati | git status | git status | 
+| Chandrasekhar | git diff | git diff |
   
