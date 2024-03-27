@@ -30,10 +30,10 @@ When the state is estimated, the resulted errors should be the same for all impl
 **Chandrasekhar recursion-based KF implementation methods:**
 | Function | Description |
 | ---: | :--- |
-| `Chandrasekhar_IMCCKF1` | Conventional implementation[^2]|
-| `Chandrasekhar_IMCCKF2` | Conventional implementation[^2]|
-| `Chandrasekhar_IMCCKF3` | Conventional implementation[^2]|
-| `Chandrasekhar_IMCCKF4` | Conventional implementation[^2]|
+| `Chandrasekhar_KF1` | Conventional implementation[^2]|
+| `Chandrasekhar_KF2` | Conventional implementation[^2]|
+| `Chandrasekhar_KF3` | Conventional implementation[^2]|
+| `Chandrasekhar_KF4` | Conventional implementation[^2]|
   
 [^1]: Park, P. and Kailath, T. (1995) New square-root algorithms for Kalman filtering. IEEE Transactions on Automatic Control. 40(5):895-9.  <a href="http://doi.org/10.1109/9.384225">DOI</a> 
 [^2]: Morf, M. and Sidhu, G. and Kailath, T. (1974) Some new algorithms for recursive estimation in constant, linear, discrete-time systems. IEEE Transactions on Automatic Control. 19(4):315-23. <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
