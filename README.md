@@ -34,3 +34,4 @@ When the state is estimated, the resulted errors should be the same for all impl
   - `Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   - `Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   
+[^1]: Park, P. and Kailath, T. (1995) New square-root algorithms for Kalman filtering. IEEE Transactions on Automatic Control. 40(5):895-9.  <a href="http://doi.org/10.1109/9.384225">DOI</a> 
