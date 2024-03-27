@@ -22,16 +22,17 @@ When the state is estimated, the resulted errors should be the same for all impl
 - Conventional algorithms:
   - `Riccati_KF_standard` is the Conventional implementation in one-step condensed form
 - Square-root Cholesky factorization-based methods:
-  - `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+  - `Riccati_KF_SRCF_QL`   is the Square-Root Covariance Filter (SRCF) with lower triangular factors[^1] by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
   - `Riccati_KF_SRCF_QR`   is the SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
   - `Riccati_KF_eSRCF_QL`  is the Extended SRCF with lower triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
   - `Riccati_KF_eSRCF_QR`  is the Extended SRCF with upper triangular factors by Park & Kailath (1995), <a href="http://doi.org/10.1109/9.384225">DOI</a> 
    
 ## Chandrasekhar recursion-based KF implementation methods:
 - Conventional algorithms:
-  - `Chandrasekhar_KF1` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
-  - `Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
+  - `Chandrasekhar_KF1` is the Conventional implementation[^2]
+  -   - `Chandrasekhar_KF2` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   - `Chandrasekhar_KF3` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   - `Chandrasekhar_KF4` is the Conventional implementation by Morf et.al. (1974), <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
   
 [^1]: Park, P. and Kailath, T. (1995) New square-root algorithms for Kalman filtering. IEEE Transactions on Automatic Control. 40(5):895-9.  <a href="http://doi.org/10.1109/9.384225">DOI</a> 
+[^2]: Morf, M. and Sidhu, G. and Kailath, T. (1974) Some new algorithms for recursive estimation in constant, linear, discrete-time systems. IEEE Transactions on Automatic Control. 19(4):315-23. <a href="http://doi.org/10.1109/TAC.1974.1100576">DOI</a>
